@@ -3,8 +3,8 @@ import { Mail, Github, Phone, Linkedin } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-gray-900 text-gray-300 py-6 mt-12">
-      <div className="max-w-6xl mx-auto flex justify-between items-center px-6">
+    <footer className="w-full bg-gradient-to-b from-gray-900 to-black text-gray-400 py-10 mt-20 border-t border-gray-800">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center px-6 gap-4 md:gap-0">
         <p className="text-sm">&copy; {new Date().getFullYear()} Maximiliano Diaz</p>
 
         <div className="flex space-x-6">
